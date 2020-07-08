@@ -6,7 +6,7 @@ import LoginNew from './Login/LoginNew'
 function Layout() {
   return (
     <>
-      <Login />
+      <One />
     </>
   )
 }

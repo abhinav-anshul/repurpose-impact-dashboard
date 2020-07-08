@@ -12,20 +12,38 @@ function One() {
         <div className='flex flex-1'>
           <div className='bg-red-200'>
             <div className='flex'>
-              <div className='card bg-yellow-900 h-auto rounded-full'>
-                <p>line</p>
+              <div className=''>
+                <p
+                  style={{
+                    padding: '5px',
+                    width: '20px',
+                    height: '60px',
+                    background: '#456',
+                    borderRadius: '10rem',
+                  }}
+                  className=''
+                ></p>
               </div>
               <div className='card bg-red-500'>
-                <div className='text-6xl'>Start Date</div>
+                <div className='text-xl'>Start Date</div>
                 <p>10/10/2019</p>
               </div>
             </div>
             <div className='flex'>
-              <div className='card bg-yellow-100 h-auto rounded-full'>
-                <p>line</p>
+              <div className=''>
+                <p
+                  style={{
+                    padding: '5px',
+                    width: '20px',
+                    height: '60px',
+                    background: '#456',
+                    borderRadius: '10rem',
+                  }}
+                  className=''
+                ></p>
               </div>
               <div className='card bg-red-500'>
-                <div className='text-6xl'>End Date</div>
+                <div className='text-xl'>End Date</div>
                 <p>10/10/2019</p>
               </div>
             </div>
@@ -33,8 +51,48 @@ function One() {
             {/* //// */}
           </div>
           <div className='bg-red-300'>
-            <p>pro</p>
-            <p>total</p>
+            <div className='bg-red-200'>
+              <div className='flex'>
+                <div className=''>
+                  <p
+                    style={{
+                      padding: '5px',
+                      width: '20px',
+                      height: '60px',
+                      background: '#456',
+                      borderRadius: '10rem',
+                    }}
+                    className=''
+                  ></p>
+                </div>
+                <div className='card bg-red-500'>
+                  <div className='text-xl'>Project Partners</div>
+                  <ul>
+                    <li>Waste Ventures India</li>
+                    <li>Saahas</li>
+                  </ul>
+                </div>
+              </div>
+              <div className='flex'>
+                <div className=''>
+                  <p
+                    style={{
+                      padding: '5px',
+                      width: '20px',
+                      height: '60px',
+                      background: '#456',
+                      borderRadius: '10rem',
+                    }}
+                  ></p>
+                </div>
+                <div className='card bg-red-500'>
+                  <div className='text-xl'>Total Plastic Offset</div>
+                  <p>25,100 Kgs</p>
+                </div>
+              </div>
+
+              {/* //// */}
+            </div>
           </div>
         </div>
       </div>
