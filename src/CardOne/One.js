@@ -1,50 +1,87 @@
 import React from 'react'
+var fontFamily = {
+  fontFamily: " 'Josefin Sans', sans-serif ",
+}
 
 function One() {
   return (
     <>
-      <div className='card bg-red-900 m-4 py-5 px-8 rounded-lg shadow-2xl'>
-        <div className='text-3xl font-bold tracking-wider'>
+      <div
+        style={fontFamily}
+        className='card bg-red-900 m-4 py-5 px-8 rounded-lg shadow-2xl'
+      >
+        <div style={{ fontSize: '58px' }} className=' font-bold tracking-wider'>
           XX goes PlasticNeutral
         </div>
-        <div className='text-lg'>Your PlasticNeutral Projects at a glance.</div>
+        <div style={{ fontSize: '38px' }} className='text-lg'>
+          Your PlasticNeutral Projects at a glance.
+        </div>
 
         <div className='flex flex-1'>
           <div className='bg-red-200'>
-            <div className='flex'>
+            <div
+              style={{
+                backgroundColor: 'red',
+                padding: '0rem',
+                width: '398px',
+                height: '215px',
+              }}
+              className='flex'
+            >
               <div className=''>
                 <p
                   style={{
-                    padding: '5px',
-                    width: '20px',
-                    height: '60px',
-                    background: '#456',
+                    width: '52px',
+                    height: '215px',
                     borderRadius: '10rem',
                   }}
-                  className=''
+                  className='bg-darkYellow'
                 ></p>
               </div>
-              <div className='card bg-red-500'>
-                <div className='text-xl'>Start Date</div>
-                <p>10/10/2019</p>
+              <div
+                style={{ paddingLeft: '2rem', paddingTop: '2rem' }}
+                className='card bg-red-500'
+              >
+                <div
+                  style={{ fontSize: '33px' }}
+                  className='text-xl text-grey '
+                >
+                  Start Date
+                </div>
+                <p className='text-darkYellow' style={{ fontSize: '58px' }}>
+                  10/10/2019
+                </p>
               </div>
             </div>
-            <div className='flex'>
+            <div
+              style={{
+                backgroundColor: 'yellow',
+                padding: '0rem',
+                width: '398px',
+                height: '215px',
+              }}
+              className='flex'
+            >
               <div className=''>
                 <p
                   style={{
-                    padding: '5px',
-                    width: '20px',
-                    height: '60px',
-                    background: '#456',
+                    width: '52px',
+                    height: '215px',
                     borderRadius: '10rem',
                   }}
-                  className=''
+                  className='bg-lightYellow'
                 ></p>
               </div>
-              <div className='card bg-red-500'>
-                <div className='text-xl'>End Date</div>
-                <p>10/10/2019</p>
+              <div
+                style={{ paddingTop: '2rem', paddingLeft: '2rem' }}
+                className='card bg-red-500'
+              >
+                <div style={{ fontSize: '33px' }} className='text-xl text-grey'>
+                  End Date
+                </div>
+                <p className='text-lightYellow' style={{ fontSize: '58px' }}>
+                  10/10/2019
+                </p>
               </div>
             </div>
 
@@ -52,42 +89,71 @@ function One() {
           </div>
           <div className='bg-red-300'>
             <div className='bg-red-200'>
-              <div className='flex'>
+              <div
+                style={{
+                  backgroundColor: 'pink',
+                  padding: '0rem',
+                  width: '745px',
+                  height: '215px',
+                }}
+                className='flex'
+              >
                 <div className=''>
                   <p
                     style={{
-                      padding: '5px',
-                      width: '20px',
-                      height: '60px',
-                      background: '#456',
+                      width: '52px',
+                      height: '215px',
                       borderRadius: '10rem',
                     }}
-                    className=''
+                    className='bg-darkBlue'
                   ></p>
                 </div>
-                <div className='card bg-red-500'>
-                  <div className='text-xl'>Project Partners</div>
-                  <ul>
-                    <li>Waste Ventures India</li>
-                    <li>Saahas</li>
-                  </ul>
+                <div
+                  style={{
+                    paddingLeft: '2rem',
+                    paddingTop: '0.8rem',
+                    lineHeight: '4rem',
+                  }}
+                  className='card bg-red-500'
+                >
+                  <div style={{ fontSize: '33px' }} className='text-grey'>
+                    Project Partners
+                  </div>
+                  <div style={{ fontSize: '58px' }}>
+                    <ul>
+                      <li>Waste Ventures India</li>
+                      <li>Saahas</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-              <div className='flex'>
+              <div
+                style={{
+                  backgroundColor: 'green',
+                  padding: '0rem',
+                  width: '745px',
+                  height: '215px',
+                }}
+                className='flex'
+              >
                 <div className=''>
                   <p
+                    className='bg-lightBlue'
                     style={{
-                      padding: '5px',
-                      width: '20px',
-                      height: '60px',
-                      background: '#456',
+                      width: '52px',
+                      height: '215px',
                       borderRadius: '10rem',
                     }}
                   ></p>
                 </div>
-                <div className='card bg-red-500'>
-                  <div className='text-xl'>Total Plastic Offset</div>
-                  <p>25,100 Kgs</p>
+                <div
+                  style={{ paddingLeft: '2rem', paddingTop: '2rem' }}
+                  className='card '
+                >
+                  <div style={{ fontSize: '33px' }} className='text-grey'>
+                    Total Plastic Offset
+                  </div>
+                  <p style={{ fontSize: '58px' }}>25,100 Kgs</p>
                 </div>
               </div>
 
