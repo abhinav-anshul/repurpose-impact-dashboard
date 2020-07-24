@@ -8,7 +8,7 @@ function One() {
     <>
       <div
         style={fontFamily}
-        className='card bg-red-900 m-4 py-5 px-8 rounded-lg shadow-2xl'
+        className='card bg-white mx-4  py-5 px-8 rounded-lg shadow-2xl'
       >
         <div style={{ fontSize: '58px' }} className=' font-bold tracking-wider'>
           XX goes PlasticNeutral

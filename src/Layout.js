@@ -10,9 +10,17 @@ import Login from './Login/Login'
 import LoginNew from './Login/LoginNew'
 function Layout() {
   return (
-    <>
-      <One />
-    </>
+    <React.Fragment>
+      <Header />
+      <div className='bg-mainBackground'>
+        <One />
+        <Two />
+        <Three />
+        <Four />
+        <Five />
+        <Six />
+      </div>
+    </React.Fragment>
   )
 }
 

@@ -1,11 +1,14 @@
 import React from 'react'
+import BrandLogo from '../assets/repurpose-brand-logo.png'
 function Header() {
+  const BrandLogoStyle = <img style={{ width: '30%' }} src={BrandLogo} />
+
   return (
     <>
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
+          gridTemplateColumns: '2fr 1fr',
           justifyContent: 'center',
           marginLeft: '4rem',
           marginRight: '4rem',
@@ -13,7 +16,7 @@ function Header() {
           paddingBottom: '2rem',
         }}
       >
-        <div style={{ display: 'flex' }}>rePurpose Icon</div>
+        <div style={{ display: 'flex' }}>{BrandLogoStyle}</div>
         <div
           style={{
             display: 'grid',
@@ -21,8 +24,18 @@ function Header() {
             justifyItems: 'end',
           }}
         >
-          <div>PROJECT OVERVIEW</div>
-          <div>MY IMPACT VERIFIED</div>
+          <div
+            className='text-darkBlue'
+            style={{ fontWeight: '700', fontSize: '1rem' }}
+          >
+            PROJECT OVERVIEW
+          </div>
+          <div
+            className='text-darkBlue'
+            style={{ fontWeight: '700', fontSize: '1rem' }}
+          >
+            MY IMPACT VERIFIED
+          </div>
           <div>(icon)</div>
         </div>
       </div>

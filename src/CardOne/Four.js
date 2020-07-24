@@ -3,7 +3,12 @@ import React from 'react'
 function Four() {
   return (
     <>
-      <div style={{ marginLeft: '2rem', marginRight: '2rem' }}>
+      <div
+        style={{
+          marginLeft: '2rem',
+          marginRight: '2rem',
+        }}
+      >
         <div style={{ fontSize: '2.5rem', fontWeight: '900' }}>
           My PlasticNeutral Portfolio
         </div>

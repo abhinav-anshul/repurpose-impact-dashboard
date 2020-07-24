@@ -17,7 +17,7 @@ function Three() {
     <>
       <div
         style={fontFamily}
-        className='card  m-4 py-5 px-8 rounded-lg shadow-2xl'
+        className='card bg-white m-4 py-5 px-8 rounded-lg shadow-2xl'
       >
         <div>
           <div style={{ fontSize: '2.5rem', fontWeight: '900' }}>

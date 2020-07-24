@@ -24,6 +24,7 @@ module.exports = {
       slider100: '#63b5bd',
       slider200: '#43adab',
       slider300: '#009297',
+      mainBackground: '#f1f1f3',
     },
     extend: {},
   },
