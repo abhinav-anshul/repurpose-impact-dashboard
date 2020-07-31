@@ -24,10 +24,7 @@ const element = (
 function Two() {
   return (
     <>
-      <div
-        style={fontFamily}
-        className='card bg-white m-4 py-5 px-8 rounded-lg shadow-2xl'
-      >
+      <div style={fontFamily} className=' m-4 py-5 px-8  '>
         <div>
           <div style={{ fontSize: '2.5rem', fontWeight: '900' }}>
             Project Status

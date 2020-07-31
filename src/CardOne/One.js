@@ -21,7 +21,7 @@ function One() {
           <div className='bg-red-200'>
             <div
               style={{
-                backgroundColor: 'red',
+                // backgroundColor: 'red',
                 padding: '0rem',
                 width: '398px',
                 height: '215px',
@@ -55,7 +55,7 @@ function One() {
             </div>
             <div
               style={{
-                backgroundColor: 'yellow',
+                // backgroundColor: 'yellow',
                 padding: '0rem',
                 width: '398px',
                 height: '215px',
@@ -91,7 +91,7 @@ function One() {
             <div className='bg-red-200'>
               <div
                 style={{
-                  backgroundColor: 'pink',
+                  // backgroundColor: 'pink',
                   padding: '0rem',
                   width: '745px',
                   height: '215px',
@@ -129,7 +129,7 @@ function One() {
               </div>
               <div
                 style={{
-                  backgroundColor: 'green',
+                  // backgroundColor: 'green',
                   padding: '0rem',
                   width: '745px',
                   height: '215px',

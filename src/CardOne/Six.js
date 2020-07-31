@@ -28,13 +28,23 @@ function Six() {
   return (
     <>
       <div
-        style={{ display: 'flex', justifyContent: 'center' }}
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          marginTop: '5rem',
+          marginBottom: '2.5rem',
+        }}
         className='card bg-lightYellow m-4 py-5 px-8 rounded-lg shadow-2xl'
       >
         {WasteVenturesStyle}
       </div>
       <div
-        style={{ display: 'flex', justifyContent: 'center' }}
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          marginTop: '5rem',
+          marginBottom: '5rem',
+        }}
         className='card bg-white m-4 py-5 px-8 rounded-lg shadow-2xl'
       >
         {SaahasLogoStyle}

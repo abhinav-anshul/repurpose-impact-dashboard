@@ -1,0 +1,140 @@
+/* eslint-disable */
+.page-title-wrap{
+   display:none;
+}
+header.entry-header h3 {
+display:none;
+}
+.site-header-middle {
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position : center;
+}
+.header-advertisement-middle .textwidget>div{
+	text-align: right;
+	color: #009398;
+	font-family: 'Josefin Sans Semi Bold';
+	font-size: 80px
+}
+.entry-title {
+  font-size: 25px;
+}
+.pagination span.current {
+  background:#009398
+}
+.h1 {
+  color: #009398;
+	font-size: 30px;
+	font-family: 'Josefin Sans Semi Bold';
+}
+.h2 {
+  color: #009398;
+	font-size: 25px;
+	font-family: 'Josefin Sans Semi Bold';
+}
+.h3 {
+  color: #000000;
+	font-size: 25px;
+	font-family: 'Open Sans';
+}
+.single .entry-title {
+	font-size: 40px;
+}
+
+
+/* */
+
+/*Author Description*/
+.archive-description {
+	color : #000000;
+	font-size : 25px;
+	 
+}
+
+/*Author title*/
+.page-title {
+	color : #009398;
+	font-weight : bold;
+	font-size : 32px;
+}
+
+/* black line */
+.heading {
+	border-bottom : 0px solid #FFFFFF
+}
+
+.mean-container .mean-bar {
+	padding : 0px;
+}
+
+.mean-container a.meanmenu-reveal {
+	padding : 0px;
+	bottom : 0px;
+	top : auto;
+}
+
+
+
+
+
+
+img.custom-logo {
+	max-width: 193px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.search-section {
+		display : none;
+	}
+	
+	.mean-container a.meanmenu-reveal {
+	padding : 0.6rem;
+}
+	
+	.fa-home:before {
+	font-size : 2.5rem;
+	padding : 1rem;
+	color : white
+}
+	
+	.mean-container .mean-bar, .mean-container .mean-bar * {
+		background-color : #009398
+	}
+	
+	.mean-container .mean-nav {
+		margin-top : 0px;
+	}
+
+
+}
+
+/* Header Image */
+
+@media screen and (min-width: 300px) {
+  .site-header-middle {
+    background-image: url(http://repurpose.global/wp-content/uploads/2020/04/cropped-Blog-header.png)
+	}
+}
+
+@media screen and (min-width: 700px) {
+  .site-header-middle {
+    background-image: url(http://repurpose.global/wp-content/uploads/2020/04/cropped-Blog-header.png)
+	}
+}
+
+@media screen and (min-width: 1000px) {
+  .site-header-middle {
+    background-image: url(http://repurpose.global/wp-content/uploads/2020/04/cropped-Blog-header.png)
+	}
+}
+
+/* brand logo */
+ .site-header-middle .container .row{
+	display : flex;
+	 
+}
+
+
+
+/* */

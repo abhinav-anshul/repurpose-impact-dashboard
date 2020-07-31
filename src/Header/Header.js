@@ -1,7 +1,9 @@
 import React from 'react'
 import BrandLogo from '../assets/repurpose-brand-logo.png'
+import Switch from '../assets/Switch.svg'
 function Header() {
-  const BrandLogoStyle = <img style={{ width: '30%' }} src={BrandLogo} />
+  const BrandLogoStyle = <img style={{ width: '25%' }} src={BrandLogo} />
+  const SwitchStyle = <img src={Switch} />
 
   return (
     <>
@@ -26,17 +28,21 @@ function Header() {
         >
           <div
             className='text-darkBlue'
-            style={{ fontWeight: '700', fontSize: '1rem' }}
+            style={{
+              fontWeight: '700',
+              fontSize: '1rem',
+              paddingTop: '1rem',
+            }}
           >
             PROJECT OVERVIEW
           </div>
           <div
             className='text-darkBlue'
-            style={{ fontWeight: '700', fontSize: '1rem' }}
+            style={{ fontWeight: '700', fontSize: '1rem', paddingTop: '1rem' }}
           >
             MY IMPACT VERIFIED
           </div>
-          <div>(icon)</div>
+          <div style={{ paddingTop: '1rem' }}>{SwitchStyle}</div>
         </div>
       </div>
     </>
